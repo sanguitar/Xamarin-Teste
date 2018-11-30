@@ -1,0 +1,35 @@
+﻿{
+  "dependencies": {
+    "Microcharts": "0.7.1",
+    "Microcharts.Forms": "0.7.1",
+    "Microsoft.Bcl.Build": "1.0.21",
+    "Microsoft.Net.Http": "2.2.29",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "modernhttpclient": "2.4.2",
+    "Newtonsoft.Json": "8.0.3",
+    "SkiaSharp": "1.60.3",
+    "SkiaSharp.Views": "1.60.3",
+    "SkiaSharp.Views.Forms": "1.59.1.1",
+    "System.ValueTuple": "4.4.0",
+    "Xam.FormsPlugin.Iconize": "1.0.10",
+    "Xam.Plugin.Iconize": "1.0.10",
+    "Xam.Plugin.Iconize.FontAwesome": "1.0.10",
+    "Xamarin.Forms": "2.4.0.280",
+    "Xamarin.Forms.Extended.InfiniteScrolling": "1.0.0-preview2",
+    "Xamarin.Forms.Pages": "2.3.0.107",
+    "Xamarin.Forms.Theme.Base": "1.0.0.43-pre1",
+    "Xamarin.Forms.Theme.Dark": "1.0.0.43-pre1",
+    "Xamarin.Forms.Theme.Light": "1.0.0.43-pre1"
+  },
+  "frameworks": {
+    "uap10.0.10586": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
+}

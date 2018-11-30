@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             xmlns:local="clr-namespace:Grupo_Pommer_e_Barbosa___App"
+             x:Class="Grupo_Pommer_e_Barbosa___App.MasterPage"
+             Icon="hamburger.png"
+			 Title="Menu">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid>
+                <Image Source="bg.png" Aspect="AspectFill" />
+                <StackLayout Padding="0,20,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <!--<controls:CircleImage BorderColor="White" BorderThickness="2" Source="profile.png" Aspect="AspectFill" WidthRequest="85" HeightRequest="85" />-->
+                    <!--<Label Text="Grupo Pommer & Barbosa" TextColor="White" FontSize="Large" />-->
+                </StackLayout>
+            </Grid>
+            <StackLayout Margin="20,20,20,0" Grid.Row="1" Spacing="15">
+                <!--<Button x:Name="ButtonNews" Text="Notícias" StyleClass="Info" />
+                <Button x:Name="ButtonContact" Text="Contato" StyleClass="Info" />-->
+                <ContentView HeightRequest="1" BackgroundColor="Gray" />
+                <local:NavigationItem Text="Itens e Estoque" Icon="fa-envelope" Command="{Binding NavigationCommand}" CommandParameter="1" />
+                <local:NavigationItem Text="Parceiros de Negócios" Icon="fa-user" Command="{Binding NavigationCommand}" CommandParameter="2" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
